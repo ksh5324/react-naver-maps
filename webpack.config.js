@@ -4,7 +4,7 @@ const { join } = require('path');
 
 module.exports = {
   output: {
-    path: join(__dirname, './dist/react-naver-map-sdk'),
+    path: join(__dirname, './src/dist/react-naver-map-sdk'),
   },
   devServer: {
     port: 4200,
