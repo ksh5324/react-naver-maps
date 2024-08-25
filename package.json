@@ -13,6 +13,11 @@
     "react-dom": "18.3.1",
     "tslib": "^2.3.0"
   },
+  "workspaces": {
+    "packages": [
+      "./packages/*"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
